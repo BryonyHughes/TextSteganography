@@ -44,4 +44,8 @@
         <servlet-name>showServlet</servlet-name>
         <url-pattern>/showServlet</url-pattern>
     </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>paragraphHide1Servlet</servlet-name>
+        <url-pattern>/paragraphHide1Servlet</url-pattern>
+    </servlet-mapping>
 </web-app>
