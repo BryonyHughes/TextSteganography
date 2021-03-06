@@ -25,6 +25,13 @@
         <servlet-class>showServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>paragraphHide1Servlet</servlet-name>
+        <servlet-class>paragraphHide1Servlet</servlet-class>
+    </servlet>
+
+
+
     <servlet-mapping>
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/MyServlet</url-pattern>

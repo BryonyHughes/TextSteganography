@@ -25,6 +25,27 @@
         <servlet-class>showServlet</servlet-class>
     </servlet>
 
+    <servlet>
+        <servlet-name>paragraphHide1Servlet</servlet-name>
+        <servlet-class>paragraphHide1Servlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>paragraphHide2Servlet</servlet-name>
+        <servlet-class>paragraphHide2Servlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>paragraphShow1Servlet</servlet-name>
+        <servlet-class>paragraphShow1Servlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>paragraphShow2Servlet</servlet-name>
+        <servlet-class>paragraphShow2Servlet</servlet-class>
+    </servlet>
+
+
     <servlet-mapping>
         <servlet-name>MyServlet</servlet-name>
         <url-pattern>/MyServlet</url-pattern>
@@ -43,5 +64,25 @@
     <servlet-mapping>
         <servlet-name>showServlet</servlet-name>
         <url-pattern>/showServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>paragraphHide1Servlet</servlet-name>
+        <url-pattern>/paragraphHide1Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>paragraphHide2Servlet</servlet-name>
+        <url-pattern>/paragraphHide2Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>paragraphShow1Servlet</servlet-name>
+        <url-pattern>/paragraphShow1Servlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>paragraphShow2Servlet</servlet-name>
+        <url-pattern>/paragraphShow2Servlet</url-pattern>
     </servlet-mapping>
 </web-app>

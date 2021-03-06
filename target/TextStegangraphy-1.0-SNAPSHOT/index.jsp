@@ -12,6 +12,8 @@
     <h1>Online Text Steganography Tool</h1>
     <p> click <a href="MyServlet">here</a> to hide text using the White Space Approach</p>
     <p> click <a href="enterShowServlet">here</a> to show text using the White Space Approach</p>
+    <p> click <a href="paragraphHide1Servlet">here</a> to hide text using the Hiding In Paragraphs Approach</p>
+    <p> click <a href="paragraphShow1Servlet">here</a> to show text using the Hiding In Paragraphs Approach</p>
 
 
 </head>
